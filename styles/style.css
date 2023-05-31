@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-container{
@@ -11,14 +12,19 @@
 }
 
 .main-search-screen {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 0 200px; */
+    padding: 50px 20px;
 
     outline: 1px solid blue;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 input {
@@ -38,5 +44,20 @@ input::placeholder{
 input:focus {
     outline: none;
     border: none;
-    background: rgb(235, 235, 235);
+    background: rgb(232, 244, 245);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.btn {
+    background: rgb(59, 59, 59);
+    outline: none;
+    border: 1px solid rgb(59, 59, 59);
+    padding: 5px 30px;
+    color: rgb(244, 241, 241);
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 20px;
 }
