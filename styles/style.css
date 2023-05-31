@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    margin: 0  auto;
+    max-width: 1200px;
+    outline: 1px solid red;
+}
+
+.main-search-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 200px; */
+
+    outline: 1px solid blue;
+}
+
+input {
+    width: 400px;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    margin: 15px 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 12px;
+    color:rgb(235, 235, 235);
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    background: rgb(235, 235, 235);
+}
