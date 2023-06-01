@@ -77,12 +77,25 @@ input:focus::placeholder {
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-    text-decoration: none;
+    list-style: none;
+    width: 100%;
 }
 
 #book-list li {
     /* flex-grow: 1; */
-    width: 100%;
+    width: 50%;
     padding: 20px 20px;
-    outline: 1px solid red;
+    outline: 1px solid blue;
+    /* clear: both; */
 }
+
+img {
+    width: 100px;
+    /* float: right; */
+}
+
+/* #bookListItems {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid red;
+} */
