@@ -26,6 +26,8 @@ function getBooks(){
         let coverImg = document.createElement('img');
         coverImg.src = data.items[i].volumeInfo.imageLinks.smallThumbnail;
         
+        entry.appendChild(document.createTextNode(authors));
+        bookList.appendChild(entry);
 
         entry.appendChild(document.createTextNode(title));
         bookList.appendChild(entry);
@@ -33,15 +35,28 @@ function getBooks(){
         entry.appendChild(document.createTextNode(pubDate));
         bookList.appendChild(entry);
 
-        entry.appendChild(document.createTextNode(authors));
-        bookList.appendChild(entry);
-
         entry.appendChild(document.createTextNode(previewLink));
         bookList.appendChild(entry);
 
-        bookList.appendChild(coverImg);
+        // bookList.appendChild(coverImg);
 
-        
+        // entry.style.fontFamily = 'Roboto';
+        // document.getElementById('items-container').style.width = '1200px';
+
+        // document.getElementById('book-list').style.width = '1200px';
+        // document.getElementById('book-list').style.display = 'flex'; 
+        // document.getElementById('book-list').style.flexDirection = 'column';
+        // document.getElementById('book-list').justifyContent = 'space-between';
+        // document.getElementById('book-list').flexWrap = 'wrap';
+        // // entry.style.flexGrow = '1';
+        // // entry.style.height =  '200px';
+
+        // bookList.style.color = 'red';
+        // bookList.style.color = 'red';
+
+            // bookList.style.display = 'flex';
+            // bookList.style.width = '1000px';
+            bookList.style.listStyle = 'none';
 
         // document.querySelector('h2').innerText = data.items[i].volumeInfo.authors;
         // document.querySelector('h3').innerText = data.items[i].volumeInfo.title;

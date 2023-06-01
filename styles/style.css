@@ -8,18 +8,17 @@
 .main-container{
     margin: 0  auto;
     max-width: 1200px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .main-search-screen {
-    /* height: 100vh; */
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -31,7 +30,7 @@ input {
     width: 400px;
     border: 1px solid gray;
     padding: 5px 20px;
-    margin: 15px 10px;
+    margin: 20px 10px 15px 10px;
     border-radius: 20px;
     outline: none;
 }
@@ -60,4 +59,30 @@ input:focus::placeholder {
     font-size: 12px;
     font-weight: 300;
     border-radius: 20px;
+}
+
+.btn:hover {
+    color:rgb(59, 59, 59);
+    background: rgb(244, 241, 241);
+    font-weight: 400;
+}
+
+.items-container {
+    max-width: 1200px;
+    /* outline: 1px solid red; */
+}
+
+#book-list {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    text-decoration: none;
+}
+
+#book-list li {
+    /* flex-grow: 1; */
+    width: 100%;
+    padding: 20px 20px;
+    outline: 1px solid red;
 }
