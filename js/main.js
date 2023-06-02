@@ -9,6 +9,8 @@ function getBooks(){
     .then(res => res.json())    //parse response as JSON
     .then(data => {
 
+        console.log(data.items[0]);
+
         for(let i = 0; i < data.items.length; i++){
         console.log(data.items[i]);
 
