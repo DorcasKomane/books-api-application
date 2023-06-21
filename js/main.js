@@ -4,7 +4,7 @@ function getBooks(){
 
     let authorName = document.querySelector('input').value;
 
-    fetch(`https://www.googleapis.com/books/v1/volumes?q=inauthor:"${authorName}"&key=AIzaSyA8dzdC5M-wByAbu0BmoZh8y_lrVvj3f6Y`)
+    fetch(`https://www.googleapis.com/books/v1/volumes?q=inauthor:"${authorName}"`)
     .then(res => res.json())    //parse response as JSON
     .then(data => {
         console.log(data.items[0].volumeInfo);
