@@ -72,30 +72,6 @@ input:focus::placeholder {
     /* outline: 1px solid red; */
 }
 
-#book-list {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
-    list-style: none;
-    width: 100%;
-}
-
-#book-list li {
-    /* flex-grow: 1; */
-    width: 50%;
-    padding: 20px 20px;
-    /* outline: 1px solid blue; */
-    /* clear: both; */
-}
-
 img {
     width: 100px;
-    /* float: right; */
 }
-
-/* #bookListItems {
-    display: flex;
-    flex-direction: column;
-    outline: 1px solid red;
-} */
