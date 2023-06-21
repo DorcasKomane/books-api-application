@@ -10,7 +10,6 @@ function getBooks(){
         console.log(data.items[0].volumeInfo);
         
         let rowEntries = ' ';
-        let headerEntries = ' ';
 
         for(let i = 0; i < data.items.length; i++){
             console.log()
