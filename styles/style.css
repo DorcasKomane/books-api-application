@@ -75,3 +75,12 @@ input:focus::placeholder {
 img {
     width: 100px;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width: 768px) {
+    input {
+        width: 300px;
+    }
+}
+>>>>>>> 71e8073 (Deleted unused code.)
