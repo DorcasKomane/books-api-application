@@ -12,7 +12,6 @@ function getBooks(){
         let rowEntries = ' ';
 
         for(let i = 0; i < data.items.length; i++){
-            console.log()
             rowEntries += `<tr>
                                 <td>${data.items[i].volumeInfo.title}</td>
                                 <td>${data.items[i].volumeInfo.publisher}</td>
