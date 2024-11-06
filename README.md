@@ -14,5 +14,5 @@ Tech stack used: JavaScript, HTML, CSS, Bootstrap
 - how to get user input and return a response using an API.
 - how to retrieve data using **fetch()**.
 - how to use a loop to iterate through an object and retreive specific information.
-- how create HTML elements using JavaScript.
-- how to present the retrieved in a table using Bootstrap.
+- how to create HTML elements using JavaScript.
+- how to present the retrieved info in a table using Bootstrap.
